@@ -1,0 +1,41 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+  color: red;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.parallax-container {
+  height: 450px;
+  padding-bottom: 120px;
+}
+.parallax img {
+  filter: grayscale(1);
+  opacity: 0.5 !important;
+}
+.clients img {
+  max-width: 460px;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.9));
+  margin-top: 20%;
+}
+section,
+footer {
+  padding: 1px 0;
+}
+section#services .card {
+  border-radius: 7px;
+}
+section#contact ul li {
+  padding: 19px 15px 19px;
+}
+@media screen and (max-width: 768px) {
+  .clients img {
+    max-width: 100%;
+    margin-top: 50%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .clients img {
+    max-width: 50%;
+    margin-top: 5%;
+  }
+}
